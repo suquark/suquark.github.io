@@ -5,6 +5,17 @@ date:   2014-12-21 21:44:52 +0800
 categories: "Theory of theory"
 ---
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX:{
+  	Macros:{
+  		ket:["\\left| #1 \\right\\rangle", 1],
+  		msqu:["\\left| #1 \\right|^2", 1],
+  	}
+  }
+});
+</script>
+
 在这里，我希望用高等量子力学非常优美的形式将量子力学讲清楚。我认为对于部分的大学生，内容不会很难。基本上就是简单的，几乎是某些省份高中水平的线性代数，和极其简单的数学分析。
 
 由于时间不足加之作者水平有限，以及一些细节不便于解释，难免会有一些错误或者表述不当的地方，欢迎指正。
@@ -61,19 +72,34 @@ categories: "Theory of theory"
 
 我们现在来看，量子力学里面这些状态怎么表述：
 
-* 硬币：$\left\|\psi\right\rangle=\alpha\left\|－1\right\rangle+\beta\left\|1\right\rangle,\|\alpha\|^2+\|\beta\|^2=1$
-* 骰子：$\left\|\psi\right\rangle=\sum_i a_i\left\|i\right\rangle, i\in{1,2,3,4,5,6}, \sum_i\|a_i\|^2=1$
-* 一维粒子的位置：这里是和实数一样多的单位向量的线性组合:
+* 硬币：
 
-$$\left|\psi\right\rangle=\sum_{x\in R}k_x\left|x\right\rangle$$
+$$\ket{\psi}=\alpha\ket{－1}+\beta\ket{1},\msqu{\alpha}+\msqu{\beta}=1$$
+
+* 骰子：
+
+$$\ket{\psi}=\sum_i a_i\ket{i}, i\in{1,2,3,4,5,6}, \sum_i\msqu{a_i}=1$$
+
+* 一维粒子的位置：(这里是和实数一样多的单位向量的线性组合)
+
+$$\ket{\psi}=\sum_{x\in R}k_x\ket{x}$$
+
 
 这些是使用了狄拉克符号表示的矢量，是量子态。
 
-我们发现有对应关系$x\rightarrow\left\|x\right>$，所以我们也可以用一个函数来表示：
+我们发现有对应关系$x\rightarrow\ket{x}$，所以我们也可以用一个函数来表示：
 
-* 硬币：$\psi(-1)=\alpha, \psi(1)=\beta,\|\alpha\|^2+\|\beta\|^2=1$
-* 骰子：$\psi(i)=a_i, i\in{1,2,3,4,5,6}, \sum_i\|a_i\|^2=1$
-* 一维粒子的位置：$\psi(x)=k_x, x\in R, \int_{-\infty}^{+\infty}\|k_x\|^2dx=1$
+* 硬币：
+
+$$\psi(-1)=\alpha, \psi(1)=\beta,\msqu{\alpha}+\msqu{\beta}=1$$
+
+* 骰子：
+
+$$\psi(i)=a_i, i\in{1,2,3,4,5,6}, \sum_i\msqu{a_i}=1$$
+
+* 一维粒子的位置：
+
+$$\psi(x)=k_x, x\in R, \int_{-\infty}^{+\infty}\msqu{k_x}dx=1$$
 
 这些就是所谓的波函数。
 

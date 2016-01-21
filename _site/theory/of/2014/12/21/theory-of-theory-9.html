@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>9. 量子理论</title>
-  <meta name="description" content="在这里，我希望用高等量子力学非常优美的形式将量子力学讲清楚。我认为对于部分的大学生，内容不会很难。基本上就是简单的，几乎是某些省份高中水平的线性代数，和极其简单的数学分析。">
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://suquark.github.io/theory/of/2014/12/21/theory-of-theory-9.html">
@@ -63,7 +63,18 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>在这里，我希望用高等量子力学非常优美的形式将量子力学讲清楚。我认为对于部分的大学生，内容不会很难。基本上就是简单的，几乎是某些省份高中水平的线性代数，和极其简单的数学分析。</p>
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX:{
+  	Macros:{
+  		ket:["\\left| #1 \\right\\rangle", 1],
+  		msqu:["\\left| #1 \\right|^2", 1],
+  	}
+  }
+});
+</script>
+
+<p>在这里，我希望用高等量子力学非常优美的形式将量子力学讲清楚。我认为对于部分的大学生，内容不会很难。基本上就是简单的，几乎是某些省份高中水平的线性代数，和极其简单的数学分析。</p>
 
 <p>由于时间不足加之作者水平有限，以及一些细节不便于解释，难免会有一些错误或者表述不当的地方，欢迎指正。</p>
 
@@ -124,22 +135,44 @@
 <p>我们现在来看，量子力学里面这些状态怎么表述：</p>
 
 <ul>
-  <li>硬币：$\left|\psi\right\rangle=\alpha\left|－1\right\rangle+\beta\left|1\right\rangle,|\alpha|^2+|\beta|^2=1$</li>
-  <li>骰子：$\left|\psi\right\rangle=\sum_i a_i\left|i\right\rangle, i\in{1,2,3,4,5,6}, \sum_i|a_i|^2=1$</li>
-  <li>一维粒子的位置：这里是和实数一样多的单位向量的线性组合:</li>
+  <li>硬币：</li>
 </ul>
 
-<script type="math/tex; mode=display">\left|\psi\right\rangle=\sum_{x\in R}k_x\left|x\right\rangle</script>
+<script type="math/tex; mode=display">\ket{\psi}=\alpha\ket{－1}+\beta\ket{1},\msqu{\alpha}+\msqu{\beta}=1</script>
+
+<ul>
+  <li>骰子：</li>
+</ul>
+
+<script type="math/tex; mode=display">\ket{\psi}=\sum_i a_i\ket{i}, i\in{1,2,3,4,5,6}, \sum_i\msqu{a_i}=1</script>
+
+<ul>
+  <li>一维粒子的位置：(这里是和实数一样多的单位向量的线性组合)</li>
+</ul>
+
+<script type="math/tex; mode=display">\ket{\psi}=\sum_{x\in R}k_x\ket{x}</script>
 
 <p>这些是使用了狄拉克符号表示的矢量，是量子态。</p>
 
-<p>我们发现有对应关系$x\rightarrow\left|x\right&gt;$，所以我们也可以用一个函数来表示：</p>
+<p>我们发现有对应关系$x\rightarrow\ket{x}$，所以我们也可以用一个函数来表示：</p>
 
 <ul>
-  <li>硬币：$\psi(-1)=\alpha, \psi(1)=\beta,|\alpha|^2+|\beta|^2=1$</li>
-  <li>骰子：$\psi(i)=a_i, i\in{1,2,3,4,5,6}, \sum_i|a_i|^2=1$</li>
-  <li>一维粒子的位置：$\psi(x)=k_x, x\in R, \int_{-\infty}^{+\infty}|k_x|^2dx=1$</li>
+  <li>硬币：</li>
 </ul>
+
+<script type="math/tex; mode=display">\psi(-1)=\alpha, \psi(1)=\beta,\msqu{\alpha}+\msqu{\beta}=1</script>
+
+<ul>
+  <li>骰子：</li>
+</ul>
+
+<script type="math/tex; mode=display">\psi(i)=a_i, i\in{1,2,3,4,5,6}, \sum_i\msqu{a_i}=1</script>
+
+<ul>
+  <li>一维粒子的位置：</li>
+</ul>
+
+<script type="math/tex; mode=display">\psi(x)=k_x, x\in R, \int_{-\infty}^{+\infty}\msqu{k_x}dx=1</script>
 
 <p>这些就是所谓的波函数。</p>
 
@@ -174,10 +207,28 @@
 
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
+	MathJax.Hub.Config({
+	  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+	});
 </script>
+
+<div id="disqus_thread"></div>
+
+<script>
+	var disqus_config = function () {
+		this.page.url = 'http://suquark.github.io/theory/of/2014/12/21/theory-of-theory-9.html';
+		this.page.identifier = '/theory/of/2014/12/21/theory-of-theory-9'; 
+	};
+
+	(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = '//suquark.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
       </div>
     </div>
@@ -211,7 +262,7 @@ MathJax.Hub.Config({
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+        <p>A student with ideas. Now share with you.
 </p>
       </div>
     </div>
