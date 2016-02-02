@@ -52,7 +52,7 @@ layout: default
 <script src="/scripts/inlineDisqussions.js"></script>
 <link rel="stylesheet" type="text/css" href="/scripts/inlineDisqussions.css" />
 <script>
-  disqus_shortname = {{ site.disqus_shortname }};
+  disqus_shortname = "{{ site.disqus_shortname }}";
   jQuery(document).ready(function() {
     jQuery("p").inlineDisqussions({
       identifier: 'disqussion',
