@@ -34,13 +34,13 @@ layout: default
 
 <script>
 	var disqus_config = function () {
-		this.page.url = 'http://suquark.github.io{{ page.url }}';
+		this.page.url = '{{ site.url }}{{ page.url }}';
 		this.page.identifier = '{{ page.id }}'; 
 	};
 
 	(function() { // DON'T EDIT BELOW THIS LINE
 		var d = document, s = d.createElement('script');
-		s.src = '//suquark.disqus.com/embed.js';
+		s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';
 		s.setAttribute('data-timestamp', +new Date());
 		(d.head || d.body).appendChild(s);
 	})();
@@ -52,7 +52,7 @@ layout: default
 <script src="/scripts/inlineDisqussions.js"></script>
 <link rel="stylesheet" type="text/css" href="/scripts/inlineDisqussions.css" />
 <script>
-  disqus_shortname = 'suquark';
+  disqus_shortname = {{ site.disqus_shortname }};
   jQuery(document).ready(function() {
     jQuery("p").inlineDisqussions({
       identifier: 'disqussion',
