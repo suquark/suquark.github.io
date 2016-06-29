@@ -5,10 +5,13 @@ mathjax: false
 comments: true
 excerpt: "智能是否可以用算法实现？"
 date:   2016-02-10 16:07:39 +0800
-categories: 人工智能
+categories: AI
 ---
+`思考篇` `启示篇` 
 
-> 本篇讨论人工智能的算法性质，以及一些更深刻的问题。我们在此处只讨论可行性。关于算法本身到底需要多复杂，参见[智能有无捷径](http://suquark.github.io/人工智能/2015/01/27/智能有无捷径.html)。
+##### [关于标签](/about/tags)
+
+> 本篇讨论人工智能的算法性质，以及一些更深刻的问题。我们在此处只讨论可行性。关于算法本身到底需要多复杂，参见[智能有无捷径](http://suquark.github.io/ai/2015/01/27/is-there-any-shortcut-to-Intelligence.html)。
 
 智能是否可以用算法实现？这个问题由来已久。
 罗杰特在《皇帝新脑》中曾经论述过这个问题。他的观点是不可能。

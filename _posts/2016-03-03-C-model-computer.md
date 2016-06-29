@@ -5,7 +5,7 @@ mathjax: false
 comments: true
 excerpt: "C语言计算机模型"
 date:   2016-03-03 +0800
-categories: 计算机组成原理
+categories: PL
 ---
 
 > C语言是一种高级语言，对于使用者来说是一种抽象和虚拟。使用者原则上只需关心其语法结构和和平台接口。下面将对C语言（虚拟）计算机从各个层面进行思辨性的讨论。
