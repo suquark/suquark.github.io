@@ -5,7 +5,7 @@ mathjax: false
 comments: true
 excerpt: "智能是否可以用'简单'算法实现"
 date:   2015-01-27 11:31:12 +0800
-categories: 人工智能
+categories: AI
 ---
 
 > 这是一篇关于 Michael A. Nielsen 的一本书的最后一篇文章的精心翻译（详见文末）。Nielsen 先生曾经写了关于量子计算和量子信息方面具有历史性的著作(*Quantum Computation and Quantum Information*)，在诸多领域（人工智能，数据挖掘，美学等等）有非凡的造诣。这篇文章凝聚了 Nielsen 的非常严谨的思维精神和高超的思辨能力，为此我花了很长时间将它翻译出来。如有不当之处请指正。
