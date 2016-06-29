@@ -16,7 +16,9 @@ categories: Operation_System
 
 **这是个操作系统相关视频教程，目的主要是教学，旨在揭示程序从API到内核入口的整个机制。**
 
-#### **[> 视频地址](http://player.youku.com/player.php/sid/XMTQ4ODA1MjE3Ng==/v.swf)**
+
+<embed src="http://player.youku.com/player.php/sid/XMTQ4ODA1MjE3Ng==/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" >
+
 
 内容基本上是原创的，网上很难找到相似内容。
 
