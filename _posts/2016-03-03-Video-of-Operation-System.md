@@ -77,6 +77,29 @@ Ring0权限最高，拥有完全的硬件控制权。Ring3最低，一切设备�
 
 一般来说，动态运行库的调用系统中断的最后或者倒数第二个函数，和内核中的函数是对应的。
 
+### Windows 与 Linux 哲学
+
+看完视频后你应该会感受到 Windows 和 Linux 在系统接口方面的不同对吧？
+Windows将所有进入内核的调用打表写入ntdll.dll并且通过sysenter进入内核态（好像这样返回时自带ret，而不是到sysenter的下一句），sysenter这个指令只有一处用到。Linux 直接在函数内进行syscall来进行调用，syscall指令很多。整个过程中函数名平均Windows长一些。
+
+### 视频不够精彩？
+
+这个很抱歉，没有足够时间后期，有不少失误。并且一边打字一边讲解并且持续将近一个小时很累。如果有条件自行将播放速度2x。
+
+最后有彩蛋。。。
+
+### 太简单
+
+我自己觉得是的。有兴趣完全自己搞一台计算机（CPU＋操作系统＋外围设备）？
+
+事实上在组成原理课的大实验中我和崔天一以及曹焕琦组队在FPGA上面搞了一个这个东西。。。
+
+其中操作系统主要是我负责的。我用9条指令搞了一个最简单的操作系统，实现了相对完整的进程管理和调度（优先级+RR），以及可编程中断等等（啊偶之后补上文档）。
+
+[要源码来看看这里吧](https://github.com/suquark/USTC-tMIPS/tree/master/OS/MARS)。
+
+PS: 看波形调试内核全是泪啊。。。
+
 ---
 
 This is an 'open-sourced' page created by Si-Yuan Zhuang. For reference, plz keep it open & free, thanx.
