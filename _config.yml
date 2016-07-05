@@ -17,3 +17,5 @@ github_username: suquark
 disqus_shortname: suquark
 # Build settings
 markdown: kramdown
+# gems: [jekyll-paginate]
+# paginate: 10

@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!--
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -21,3 +22,30 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+-->
+
+<section class="post-list">
+
+  <header class="post-header intro">
+    <div class="intro-in">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <h2 class="intro-subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+    </div>
+  </header>
+
+  {% for post in site.posts %}
+    <article class="post-item container">
+      <header>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h1 class="post-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h1>
+      </header>
+
+      <p>{{ post.content | strip_html | truncate: 256 }} <a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}" class="read-more">Read more</a></p>
+    </article>
+  {% endfor %}
+
+</section>
