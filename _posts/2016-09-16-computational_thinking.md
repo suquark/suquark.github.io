@@ -67,9 +67,9 @@ Computational thinking is reformulating a seemingly difficult problem into one w
 
 >
 
-Computational thinking is thinking recursively. It is parallel processing. It is interpreting code as data and data as code. It is type checking as the generalization of dimensional analysis. It is recognizing both the virtues and the dangers of aliasing, or giving someone or something more than one name. It is recognizing both the cost and power of indirect addressing and procedure call. It is judging a program not just for correctness and efficiency but for aesthetics, and a system’s design for simplicity and elegance.
+Computational thinking is thinking recursively. It is parallel processing. It is interpreting code as data and data as code. It is interpreting code as data and data as code. It is type checking as the generalization of dimensional analysis. It is recognizing both the virtues and the dangers of aliasing, or giving someone or something more than one name. It is recognizing both the cost and power of indirect addressing and procedure call. It is judging a program not just for correctness and efficiency but for aesthetics, and a system’s design for simplicity and elegance.
 
-计算思维递归地思考问题，并行的处理事务，它将维数分析一般化为类型检查（用类型封装复杂结构，从而降低了使用的复杂度。类似于将高维度空间紧致到0维，然后使用空间的代称），它展现了同一命名或者给予东西不止一个名字的两面性。它展现了间接寻址和过程调用的得失（原则上大多数间接寻址和过程调用都没有必要或者被其他方法代替，但是这会给人带来严重的逻辑负担）。它不止用正确性和效率衡量程序的优良，也包括（内在逻辑的）美观性，以及系统设计的简约高雅。
+计算思维递归地思考问题，并行的处理事务，它对数据和代码一视同仁（从而我们可以反射和元编程），它将维数分析一般化为类型检查（用类型封装复杂结构，从而降低了使用的复杂度。类似于将高维度空间紧致到0维，然后使用空间的代称），它展现了同一命名或者给予东西不止一个名字的两面性。它展现了间接寻址和过程调用的得失（原则上大多数间接寻址和过程调用都没有必要或者被其他方法代替，但是这会给人带来严重的逻辑负担）。它不止用正确性和效率衡量程序的优良，也包括（内在逻辑的）美观性，以及系统设计的简约高雅。
 
 >
 
