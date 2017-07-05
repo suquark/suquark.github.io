@@ -231,11 +231,11 @@ namespace DrawBehindDesktopIcons
                 // hide the border of the form
                 form.FormBorderStyle = FormBorderStyle.None;
                 form.Controls.Add(new WebBrowser() { 
-                    Url = new Uri("http://ustc.edu") 
+                    Url = new Uri("http://ustc.edu"),
+                    Dock = DockStyle.Fill
                 });
                 SetParent(form.Handle, workerw);
                 form.WindowState = FormWindowState.Maximized;
-                webview.Dock = DockStyle.Fill;
             });
             form.Show();
             // Start the Application Loop for the Form.
