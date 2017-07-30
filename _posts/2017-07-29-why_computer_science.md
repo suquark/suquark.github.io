@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why computer science
+title: 为什么我选择计算机科学
 comments: true
 mathjax: true
 excerpt: "computer science"
