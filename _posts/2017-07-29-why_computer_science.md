@@ -25,7 +25,7 @@ categories: lecture
 
 # 编程篇
 
-![IMAGE](/static/why_computer_science/A9B5E93EDEBAD190EF0261B53EA2B9F7.jpg =1920x1080)
+![IMAGE](/static/why_computer_science/A9B5E93EDEBAD190EF0261B53EA2B9F7.jpg)
 
 ## 对CS的误解
 
@@ -65,7 +65,7 @@ CS 是不是主要就是编程？结论是否定的。说CS主要是编程，就
 
 我们想象一下没有计算机前和之后，远程购物（现在基本上是网上购物）的区别。
 
-![IMAGE](/static/why_computer_science/6169FBF2159F9BE2182F59592963831C.jpg =626x626)
+![IMAGE](/static/why_computer_science/6169FBF2159F9BE2182F59592963831C.jpg)
 
 如果我们需要买一个本地没有的东西，首先我们需要到处打听它在哪里的消息。但是，买东西的人数往往远远多于常见的被买的物品的种类。我们于是懒一点，每个物品做一个网页，然后被若干人看若干遍不就行了。
 
@@ -77,7 +77,7 @@ CS 是不是主要就是编程？结论是否定的。说CS主要是编程，就
 
 这里我们看到的是，**很多现实中的任务都是机械的、重复的**，它们作为社会规律或者社会形式会存在相当长的时间；但是解决它们的方法，却是相对固定的；而解决解决问题方法的方法，目前我们知道的为数不多的东西叫编程，而被如此大批量的使用且如此成功的，恐怕也只有编程。
 
-![IMAGE](/static/why_computer_science/37E314B9F2C3FA5CCE0F2FFB39DFBEE7.jpg =782x582)
+![IMAGE](/static/why_computer_science/37E314B9F2C3FA5CCE0F2FFB39DFBEE7.jpg)
 
 ### 因为它是灵魂而不是肉体
 
@@ -113,19 +113,19 @@ IT业界这些年发展推动的一个重要动力是，开源(open source)。�
 
 唉，等等，万一这些程序突然全部失效怎么办？刷学生卡“交易失败”，导弹漫天飞，反导系统打自家基地，电网损毁大面积停电，毕业论文被删的一干二净，听什么音乐都是永恒的东风，银行存款变成随机数。。。
 
-![IMAGE](/static/why_computer_science/D1ACEC7203AF29A0CE7FAD2A72D45152.jpg =1600x1200)
+![IMAGE](/static/why_computer_science/D1ACEC7203AF29A0CE7FAD2A72D45152.jpg)
 
 但是，这些几乎都没有发生，虽然历史上有过程序错误造成的惨痛教训，但是比起实际中数以万亿计的程序的表现几乎可以忽略。
 
 现在我们仍然讨论的是CS中冰山一角的编程。编程是什么？程序怎样保证它的正确性？
 
-![IMAGE](/static/why_computer_science/C4C69D18ADB67B8611B6789A3CA34E2E.jpg =640x272)
+![IMAGE](/static/why_computer_science/C4C69D18ADB67B8611B6789A3CA34E2E.jpg)
 
 ## 插曲：正确的蓝屏
 
 以下是经典的蓝屏界面（新的系统中变得更加友好），系统出问题的时候会显示。
 
-![IMAGE](/static/why_computer_science/D024AC0048E38BBE6044E46D15472DDD.jpg =640x480)
+![IMAGE](/static/why_computer_science/D024AC0048E38BBE6044E46D15472DDD.jpg)
 
 但是如果你曾经仔细看过，就会发现第一行写的是：
 
@@ -135,9 +135,9 @@ IT业界这些年发展推动的一个重要动力是，开源(open source)。�
 
 不同系统会有不同的“蓝屏”，一般来说 Linux/*nix 这些操作系统会显示 `Kernel panic` 字样。
 
-![IMAGE](/static/why_computer_science/6357BC09C933F9EFBF8B51008B6885BC.jpg =773x428)
+![IMAGE](/static/why_computer_science/6357BC09C933F9EFBF8B51008B6885BC.jpg)
 
-![IMAGE](/static/why_computer_science/BC3BCF1BC5480119F05849FE6618FADB.jpg =1024x1024)
+![IMAGE](/static/why_computer_science/BC3BCF1BC5480119F05849FE6618FADB.jpg)
 
 在今后你们的编程中，会出现各种各样的“异常”和“错误”，请庆幸它们的发生，这说明你的错误被正确的发现了。如果一切顺利而结果不对，才是最致命的问题。
 
@@ -147,7 +147,7 @@ IT业界这些年发展推动的一个重要动力是，开源(open source)。�
 
 这个如果不是一个无聊的脑筋急转弯那么显然 1 + 1 = 2。数学总是对的。
 
-![IMAGE](/static/why_computer_science/10FA403951AB11F04C6559AFFCB23901.jpg =602x606)
+![IMAGE](/static/why_computer_science/10FA403951AB11F04C6559AFFCB23901.jpg)
 
 我有一块橡皮泥，又叠一块橡皮泥，那么我有几块橡皮泥？这个时候可能需要三思了。一个合理的答案可能是1。这里如果用 1 + 1 = 2 似乎就不对了。
 
@@ -161,7 +161,7 @@ IT业界这些年发展推动的一个重要动力是，开源(open source)。�
 
 CS恰好也建立了模型。CS如何建立模型？一个重要的手段就是OOP（面向对象编程）。CS将一个实体（人，银行账户，城市等等）及其属性，谓词，函数，相互之间的关系代数，等词这些，打包成一个 class (类)，一个具体的对象称为class的一个实例（instance）。注意这里class实际上是一种“元实例”；一个描述人这个实体的class，仅仅含有模型中需要的“人”的性质，而它的实例中才会有具体的内容(身高的数值等等)。类相对于实例就好像是模板对于产品一样，但是不同的是，这里的“产品”允许有各自的内容。
 
-![IMAGE](/static/why_computer_science/AFC18DA241A220A0DA44E82A483F4447.jpg =1600x1200)
+![IMAGE](/static/why_computer_science/AFC18DA241A220A0DA44E82A483F4447.jpg)
 
 程序的代码本质上也是一种废话，它只会忠实地被计算机执行，没有真正意义上的“正确错误”，一切都是“对的、必然的”（如果你在这里想到了计算机程序中的异常(exception)，异常实际上也是一种错误处理的规范，最底层仅仅按照Intel芯片手册忠实执行而已）。有了OOP之后，我们可以更好的为实际问题建立正确的模型，规避逻辑上的错误）。
 
