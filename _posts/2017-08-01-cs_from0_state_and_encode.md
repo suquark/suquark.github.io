@@ -102,8 +102,6 @@ Eureka! 我们得到的启发是，
 
 ![IMAGE](/static/cs_from0_state_and_encode/67F86FC2927A6612849DB0587F122667.jpg)
 
-这种一个物理量代表两个
-
 ## 物理状态到逻辑状态
 
 你可能好奇为什么我们不直接使用 `0` 和 `1`，而是使用 `zero` 和 `one`
