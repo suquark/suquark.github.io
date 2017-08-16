@@ -46,7 +46,7 @@ categories: lecture
 
 一般螺丝刀是个整体，就像下面一样：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/D59484CC74E6FC9A47C551BBEF4A0D06.jpg)
+![IMAGE](/static/the_computational_thinking/D59484CC74E6FC9A47C551BBEF4A0D06.jpg)
 
 这类螺丝刀一般都是小型的，或者家用的。
 
@@ -54,21 +54,21 @@ categories: lecture
 
 于是发明了多功能螺丝刀（类似的工具很多）：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/E9703E1492651F70515D40DCEEB17118.jpg)
+![IMAGE](/static/the_computational_thinking/E9703E1492651F70515D40DCEEB17118.jpg)
 
 其本质就是策略和机制的分离：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/1CC3C92502E7E93FDC81D5A74B879026.jpg)
+![IMAGE](/static/the_computational_thinking/1CC3C92502E7E93FDC81D5A74B879026.jpg)
 
 策略和机制的分离在计算机等非常多的领域应用极为广泛：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/0493928DEDAE46BB6CEBE48F543FE27F.jpg)
+![IMAGE](/static/the_computational_thinking/0493928DEDAE46BB6CEBE48F543FE27F.jpg)
 
 ### 功能的分离
 
 这里的例子是天宫一号
 
-![IMAGE](static/2017-08-15-the_computational_thinking/0C1D020E2109E567C763E87D0AA7138A.jpg)
+![IMAGE](/static/the_computational_thinking/0C1D020E2109E567C763E87D0AA7138A.jpg)
 
 可以看到，它是由各个功能模块“拼”成的。
 
@@ -82,13 +82,13 @@ categories: lecture
 
 我们可以看一下一个不分离的耦合情况：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/9E6B12FEB07E192AA2EF80272AE2C459.jpg)
+![IMAGE](/static/the_computational_thinking/9E6B12FEB07E192AA2EF80272AE2C459.jpg)
 
 虽然只有12个点，但是由于相互影响复杂性极高，难以控制。
 
 而如果我们进行分离，点数是同样的，但是复杂性要小非常多：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/FDA0EA41B436B4CB86FE8E9CB9EE1ABD.jpg)
+![IMAGE](/static/the_computational_thinking/FDA0EA41B436B4CB86FE8E9CB9EE1ABD.jpg)
 
 这样各个封闭的整体（例如器官，或者房间）可以在内部处理和发挥自己的功能，而不用担心对外部的影响。
 
@@ -104,7 +104,7 @@ categories: lecture
 
 一个例子是电力系统
 
-![IMAGE](static/2017-08-15-the_computational_thinking/707BA1B13C9F80F6E58EA4D96974BEB6.jpg)
+![IMAGE](/static/the_computational_thinking/707BA1B13C9F80F6E58EA4D96974BEB6.jpg)
 
 这个时候上面的东西依赖下面的东西。比如获得电能，需要化学能（煤炭，石油）等的支持。
 
@@ -112,45 +112,45 @@ categories: lecture
 
 这种东西不一定是实际上的设备，比如计算机组成原理中会提到的计算机组成的层次：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/E843EEA7897D9D45898B1EE58D751851.jpg)
+![IMAGE](/static/the_computational_thinking/E843EEA7897D9D45898B1EE58D751851.jpg)
 
 以及非常著名的计算机网络 OSI 7层模型
 
-![IMAGE](static/2017-08-15-the_computational_thinking/AF25163F0DAE53129025F6A2624FEC96.jpg)
+![IMAGE](/static/the_computational_thinking/AF25163F0DAE53129025F6A2624FEC96.jpg)
 
 分层是为了各个之间的灵活组合，避免复杂的内部变得更加复杂（分层的OSI模型内部都已经如此复杂了）：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/233578AE98CF31F744983D377E6E4CF2.jpg)
+![IMAGE](/static/the_computational_thinking/233578AE98CF31F744983D377E6E4CF2.jpg)
 
 ### 任务的分离
 
 想象一下如果你遇到一件倒霉的事情，比如说
 
-![IMAGE](static/2017-08-15-the_computational_thinking/0661D7344D2F70268F7A9198B2934634.jpg)
+![IMAGE](/static/the_computational_thinking/0661D7344D2F70268F7A9198B2934634.jpg)
 
 然后你要搬砖，然后发现路不好走没法用机器
 
-![IMAGE](static/2017-08-15-the_computational_thinking/3A003B079A19B8A61A6F492EEFC0C52A.jpg)
+![IMAGE](/static/the_computational_thinking/3A003B079A19B8A61A6F492EEFC0C52A.jpg)
 
 然后怎么办？？？
 
 你可能是这样的
 
-![IMAGE](static/2017-08-15-the_computational_thinking/4D156B3DB0F193E4A89C8C4B2E774B90.jpg)
+![IMAGE](/static/the_computational_thinking/4D156B3DB0F193E4A89C8C4B2E774B90.jpg)
 
 你也可能找到一个这样的帮手
 
-![IMAGE](static/2017-08-15-the_computational_thinking/12FD998CBAD48843BDDA07EC1589C643.jpg)
+![IMAGE](/static/the_computational_thinking/12FD998CBAD48843BDDA07EC1589C643.jpg)
 
 当然世上或许总会有逆天之人：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/AB42829588556B87361A1797D2168C55.jpg)
+![IMAGE](/static/the_computational_thinking/AB42829588556B87361A1797D2168C55.jpg)
 
 (咦？好像看到了不对劲的东西？)
 
 然而如果你是真心想最快地搬砖，那么可能是这样的：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/7562703CA74312520C8C19DEA6FAD760.jpg)
+![IMAGE](/static/the_computational_thinking/7562703CA74312520C8C19DEA6FAD760.jpg)
 
 也就是会有一群人一起搬砖。
 
@@ -158,11 +158,11 @@ categories: lecture
 
 如果任务没有很好的分离，那么可能就会是这样的结果：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/4035CD3D660DE15C4A9C9BAFC1C184D8.jpg)
+![IMAGE](/static/the_computational_thinking/4035CD3D660DE15C4A9C9BAFC1C184D8.jpg)
 
 或者这样的结果：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/3F4F37786A43670EE8AF82D8F44349CA.jpg)
+![IMAGE](/static/the_computational_thinking/3F4F37786A43670EE8AF82D8F44349CA.jpg)
 
 说到这个，另外一个有趣的例子是CPU（中央处理器）和GPU（图形处理单元，图形卡，显卡）。
 
@@ -170,13 +170,13 @@ categories: lecture
 
 最显著的区别是，CPU可能2核，4核，8核；但是GPU通常可能有上千个核（每一个最小的绿色格子可以认为是一个）：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/BB90AF236FDAEED331023D3AE10B8829.jpg)
+![IMAGE](/static/the_computational_thinking/BB90AF236FDAEED331023D3AE10B8829.jpg)
 
 GPU拥有如此多个可以独立处理数据的核心的原因在于，游戏等图形学任务是易于分离成若干个小任务的。
 
 考虑一个简单的场景：3D画面的平移旋转缩放（最常见的3D游戏中视角变换）
 
-![IMAGE](static/2017-08-15-the_computational_thinking/C54BEA8431302A49FAFE9EF9C3EAF920.jpg)
+![IMAGE](/static/the_computational_thinking/C54BEA8431302A49FAFE9EF9C3EAF920.jpg)
 
 如图所示，其中画面中每个点的移动都是独立的（空间的整体性导致的），因而变换每个点的位置可以作为独立的任务。尤其高分辨率画面中有数百万计的点，这就非常适合核数较多的 GPU 做这种事。而另外一些难以划分的日常任务（办公软件等的操作），还是主要靠CPU。
 
@@ -186,7 +186,7 @@ GPU拥有如此多个可以独立处理数据的核心的原因在于，游戏�
 
 你会不会在世界上所有的螺帽上都固定一个扳手？比如像这样：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/36752D0908C409023EE2A55279C8FFC9.jpg)
+![IMAGE](/static/the_computational_thinking/36752D0908C409023EE2A55279C8FFC9.jpg)
 
 在大多场合肯定不会。这样很傻。因为扳手是可以“复用”的。它可以用于这个，也可以用于那个。
 
@@ -196,7 +196,7 @@ GPU拥有如此多个可以独立处理数据的核心的原因在于，游戏�
 
 下面的图片中的树显示了各种各样数归结到1的过程。
 
-![IMAGE](static/2017-08-15-the_computational_thinking/01A51770657B6912BB319D9114C7BD25.jpg)
+![IMAGE](/static/the_computational_thinking/01A51770657B6912BB319D9114C7BD25.jpg)
 
 我们称一个数归结到1经历的迭代次数为一个数的Collatz序数。
 
@@ -244,7 +244,7 @@ int collatz_max(int a, int b) {
 
 下面就是一个例子（因为代码总是自上而下一个方向写的，所以这里用串代替代码）：
 
-![IMAGE](static/2017-08-15-the_computational_thinking/91A92376911EECF99CF171F5B6B4CFD1.jpg)
+![IMAGE](/static/the_computational_thinking/91A92376911EECF99CF171F5B6B4CFD1.jpg)
 
 注：如果你是C语言初学者，可能更习惯这样的写法：
 
@@ -279,20 +279,19 @@ int collatz_max(int a, int b) {
 
 有时候将问题划分为多个部分求解可能有奇效。这部分我不准备细讲，详情参考 [分治算法](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm)。它是快速排序、快速傅立叶变换等划时代的算法的重要设计思想，这些算法在解决现实问题中起到了无法估量的成效。
 
-
 ## 局域性原理（广义）
 
 所谓局域性原理，是指的一种时间、空间或者分布上的集中性特征。这是现实中常常会有的情况。之所以称为原理，是因为它不是一种定律，但是却在实际中非常稳定地出现。它告诉了我们 “数学上无解的，现实中总是有解” 的道理。
 
 举一个虚构的例子。
 
-![IMAGE](static/2017-08-15-the_computational_thinking/C951A26BDA3DE3988059DA9EB081159C.jpg)
+![IMAGE](/static/the_computational_thinking/C951A26BDA3DE3988059DA9EB081159C.jpg)
 
 假设大厅有4扇贵重的门，两侧是楼梯。每天人很多，过一段时间门可能坏掉，维修费用高昂。一个有效的应对方案是加固门，但是如果加固所有的门，也会带来极大的开销。
 
 但是，事实上发现通过两侧门的人数大大多于中间的。于是实际中的解决方案是只加固两侧的门。
 
-![IMAGE](static/2017-08-15-the_computational_thinking/F67708ABD496E230B762B927894F75B4.jpg)
+![IMAGE](/static/the_computational_thinking/F67708ABD496E230B762B927894F75B4.jpg)
 
 可能之后经过分析，发现原因可能是两侧更靠近楼梯，大家愿意走短点，所以通过两侧门人数更多。但是有可能在另外一个地方，人们的行动又呈现另外的分布，由于另外一些内在原因。可能出现人分布不同的原因可能各种各样，并不服从单一的数学定律，难以预先预测，但是大多数都导致了不平均的分布，而利用这种分布我们可以达到目的。
 
@@ -354,6 +353,8 @@ int sum(int a[], int n) {
 
 当我们用一套停车场管理系统，替代了停车场管理员（那个老大爷）之后，整件事情改变了什么？它并不仅仅是节约了一个老大爷的人力成本这么简单，仅仅节约人力成本的价值并不大，因为基层体力劳动的人力成本是相当有限的，节约20个老大爷的工资，也未必能比得上一个程序员的工资支出。
 
+![IMAGE](/static/the_computational_thinking/92E0C39E695789B5709238D29358C2C0.jpg)
+
 比节约一个人的人力成本更重要的是，我们用软件来规范了停车场的行为，即所谓“定义”。在使用软件之前，停车场管理员是有很大权利的，很多人都知道，给停车场管理员塞一包烟，他可能就会少收你20块钱停车费。甚至很多停车场管理员会直接把停车费塞到自己口袋里面，如果你没要停车发票的话。停车场的运营是没办法监督这种行为，要监督，就需要付出巨大的人力，甚至冒很大风险。有了软件系统之后，一切都不一样了。不再需要去监督这种往自己口袋里面塞钱的行为了，只要软件没有能被他们找到的漏洞，一切都变成了非常规范的行为。开车来的车主进入停车场的时候取卡，系统拍下车牌照，出停车场的时候自动计时收费，付钱之后停车场出口才打开，车才能离开。这个过程可以完全没有人力参与，就算是保留那个停车场老大爷的职位来做应急工作，他的行为也是严格被软件规范的。不交钱，停车场出口不打开，车就没法离开停车场，这是一条被明确定义了的基本规则，除非暴力去破坏停车场设施，否则，一切都是被软件管理的，人改变不了什么。从此，整个过程中不会再有钱的损耗，停车场运营方会获得更多收益。这些收益中的一部分，就变成了软件公司的利润，软件公司利润的一部分，变成了程序员工资。
 
 这就是软件企业为何有巨大盈利，程序员工资为什么这么高的原因。仅从这个例子看，软件没有创造新的价值，但是在若干传统行业中，软件夺回了一部分人本来不应该拿到的钱，把这些钱重新变成了利润，程序员分享了这部分利润。在这个停车场的例子中，按道理说，停车场管理员的收入只应该是一份工资，不包括偷偷塞到口袋里面的停车费，但是如果没有软件，这种行为是没法阻止的，一定会有很大一笔钱流到不应该获得它们的人手里。另外一方面看，在车主这边，他们的行为也被定义了。过去很多人是愿意接受10块钱买一包烟，省20块钱停车费这种设定的。但在软件管理之下，这种利益交换没机会发生了。在这个停车场的案例中，参与业务的两方行为都被软件重新规范和定义了。
@@ -398,6 +399,7 @@ int sum(int a[], int n) {
 更加特殊的例子是自己模拟自己。在程序上这种程序称为 `quine`。比如下面是一个 C 语言的 quine，它的运行结果是输出自己的代码：
 
 {% highlight c %}
+{% raw %}
 #include <stdio.h>
 char *program = "#include <stdio.h>%cchar *program = %c%s%c;%cint main()%c{%cprintf(program, 10, 34, program, 34, 10, 10, 10, 10, 10, 10);%c    return 0;%c}%c";
 int main()
@@ -405,6 +407,7 @@ int main()
 printf(program, 10, 34, program, 34, 10, 10, 10, 10, 10, 10);
 return 0;
 }
+{% endraw %}
 {% endhighlight %}
 
 
