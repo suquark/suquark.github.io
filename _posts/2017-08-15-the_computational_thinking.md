@@ -2,6 +2,7 @@
 layout: post
 title: "为什么我选择计算机科学2 计算思维"
 comments: true
+mathjax: true
 excerpt: "computer science"
 date: 2017-08-15 +0727
 categories: lecture
