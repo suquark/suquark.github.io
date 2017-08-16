@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 为什么我选择计算机科学2-计算思维
+title: "为什么我选择计算机科学2 计算思维"
 comments: true
 excerpt: "computer science"
-date: 2017-08-15 +2127
+date: 2017-08-15 +0727
 categories: lecture
 ---
 
