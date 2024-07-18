@@ -170,6 +170,49 @@
           <ol class="bibliography">
             <li>
               <div class="row">
+                <div class="col-sm-2 abbr"><abbr class="badge">USENIX ATC</abbr></div>
+                <div id="starburst" class="col-sm-8">
+                  <div class="title">Starburst: A Cost-aware Scheduler for Hybrid Cloud</div>
+                  <div class="author">Michael Luo, Siyuan Zhuang, Suryaprakash Vengadesan, Romil Bhardwaj, Justin Chang, Eric Friedman, Scott Shenker, Ion Stoica</div>
+                  <div class="periodical"><em>In Proceedings of the 2024 USENIX Annual Technical Conference, </em>2024</div>
+                  <div class="links">
+                    <a href="https://www.usenix.org/system/files/atc24-luo.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a class="abstract btn btn-sm z-depth-0" role="button">TL;DR</a>
+                  </div>
+
+                  <div class="abstract hidden">
+                    <p>
+                      To efficiently tackle bursts in job demand, organizations
+                      employ hybrid cloud architectures to scale their batch
+                      workloads from their private clusters to public cloud. This
+                      requires transforming cluster schedulers into cloud-enabled
+                      versions to navigate the tradeoff between cloud costs and
+                      scheduler objectives such as job completion time (JCT).
+                      However, our analysis over production-level traces show that
+                      existing cloud-enabled schedulers incur inefficient cost-JCT
+                      trade-offs due to low cluster utilization.
+                      We present Starburst, a system that maximizes cluster
+                      utilization to streamline the cost-JCT tradeoff. Starburst’s
+                      scheduler dynamically controls jobs’ waiting times to improve
+                      utilization—it assigns longer waits for large jobs to increase
+                      their chances of running on the cluster, and shorter waits to
+                      small jobs to increase their chances of running on the cloud.
+                      To offer configurability, Starburst provides system administrators a simple waiting budget framework to tune their position
+                      on the cost-JCT curve. A departure from traditional cluster
+                      schedulers, Starburst operates as a higher-level resource
+                      manager over a private cluster and dynamic cloud clusters.
+                      Simulations over production-level traces and real-world
+                      experiments on a 32-GPU private cluster show that Starburst
+                      can reduce cloud costs by up to 54-91% over existing cluster
+                      managers, while increasing average JCT by at most 5.8%.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
                 <div class="col-sm-2 abbr"><abbr class="badge">ICLR</abbr></div>
                 <div id="lmsyschat" class="col-sm-8">
                   <div class="title">LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset </div>
